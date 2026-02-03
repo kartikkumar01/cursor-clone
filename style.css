@@ -3,9 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+h1,h2,h3,h5,h6{
+    font-size: 1.4rem;
+}
 a{
     text-decoration: none;
     color: inherit;
+    font-weight: 500;
 }
 nav ul li{
     list-style-type: none;
@@ -20,7 +24,7 @@ nav ul li{
     /* for highlights cards in last */
     --bg-medium2 : #26241E;
     
-    --text-light : #FFFFFF;
+    --text-light : #EDECEC;
     --text-dark : #858481;
     --text-link : #f54e00;
 
@@ -31,6 +35,7 @@ body{
     background-color: var(--bg-dark);
     color: var(--text-light);
     font-family: "CursorGothic", "CursorGothic Fallback", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 1.4rem;
 }
 
 /* IMP:Using it as website boundary */
@@ -79,3 +84,22 @@ header nav ul{
     color: var(--bg-dark);
 }
 /* navbar completed till here */
+
+.hero-section p{
+    font-size: 2.6rem;
+    margin-block: 11rem 2rem;
+}
+#hero-cta{
+    display: block;
+    width: max-content;
+    border-radius: 50px;
+    background-color: var(--text-light);
+    color: var(--bg-dark);
+    padding: 10px 20px;
+    font-size: 1.6rem;
+    margin-bottom: 6rem;
+}
+.hero-section img{
+    width: 100%;
+    border-radius: 10px;
+}
