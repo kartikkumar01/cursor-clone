@@ -122,3 +122,32 @@ header nav ul{
 }
 
 /* trusted by section ends here */
+
+/* feature cards section starts here */
+.feature-card{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 1.8rem;
+    background-color: var(--bg-medium1);
+    margin-top: 10rem;
+    border-radius: 10px;
+}
+.feature-card p{
+    font-size: 2.3rem;
+}
+.feature-card a{
+    font-size: 1.6rem;
+    color: var(--text-link);
+}
+.feature-card span{
+    color: var(--text-dark);
+}
+.feature-card img{
+    width: 65%;
+    border-radius: 10px;
+}
+.second-feature-card div{
+    margin-right: 2.5rem;
+}
+/* feature cards section ends here */
