@@ -119,6 +119,7 @@ header nav ul{
 .trusted-section-row svg{
     background-color: var(--bg-medium1);
     padding-block: 2rem;
+    width: 100%;
 }
 
 /* trusted by section ends here */
@@ -190,3 +191,35 @@ border-radius: .5rem;
     margin-block: 2rem;
 }
 /* testimonials section ends here */
+
+/* frontier story section starts */
+.frontier-section-heading{
+    font-size: 2.8rem;
+    margin-block: 16rem 3rem;
+}
+.frontier-card{
+    font-size: 1.7rem;
+    padding: 2rem;
+    background-color: var(--bg-medium1);
+    border-radius: .6rem;
+    width: 100%;
+}
+.frontier-card a{
+    display: block;
+    margin-block: 2rem;
+}
+.frontier-card-p{
+    color: var(--text-dark);
+}
+.frontier-card a{
+    color: var(--text-link);
+}
+.frontier-card img{
+    border-radius: .6rem;
+    width: 100%;
+}
+.frontier-cards{
+    display: flex;
+    gap: 1rem;
+}
+/* frontier story section ends */
