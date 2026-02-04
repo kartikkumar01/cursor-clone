@@ -161,7 +161,7 @@ header nav ul a:hover{
     border-radius: 10px;
 }
 .second-feature-card div{
-    margin-right: 2.5rem;
+    margin-inline: 1.5rem;
 }
 /* feature cards section ends here */
 

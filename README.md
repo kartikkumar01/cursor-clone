@@ -14,7 +14,7 @@ This project focuses on clean UI, layout accuracy, and modern frontend practices
 ## Live Demo
 
  **View the live project:**  
-https://cursor-clone-kartik.vercel.app
+![alt text](image.png)
 
 ---
 
