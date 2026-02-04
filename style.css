@@ -417,11 +417,6 @@ footer button{
     cursor: pointer;
 }
 
-
-/* .btn-hover:hover{
-    color: white;
-} */
-
 .link-hover:hover{
     color: var(--text-link-hover);
 }
