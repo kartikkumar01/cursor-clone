@@ -1,7 +1,24 @@
-# cursor-clone
-This cursor clone is a project assignment in web dev cohort by chai code
+# 🚀 Cursor Clone
 
-## colors
-silver :  #000000
-white :  #FFFFFF
-black : #CCCCCC
+A responsive **Cursor landing page clone**, built as part of a **Web Development Cohort assignment by Chai Code**.  
+This project focuses on clean UI, layout accuracy, and modern frontend practices.
+
+---
+
+## 📸 Preview
+
+![Cursor Landing Page Screenshot](./screenshots/image.png)
+
+---
+
+## 🌐 Live Demo
+
+🔗 **View the live project:**  
+https://cursor-clone-kartik.vercel.app
+
+---
+
+## 🛠️ Tech Stack
+
+- HTML5  
+- CSS3  
