@@ -256,3 +256,23 @@ border-radius: .5rem;
     gap: 1rem;
 }
 /* changelog section ends here */
+
+/* about team section starts here */
+.about-team-section p{
+    font-size: 3.5rem;
+    margin-block: 15rem 3rem;
+}
+.about-team-section-cta{
+    display: block;
+    width: max-content;
+    border-radius: 50px;
+    background-color: var(--text-light);
+    color: var(--bg-dark);
+    padding: 10px 20px;
+    font-size: 1.6rem;
+    margin-bottom: 6rem;
+}
+.about-team-section img{
+    width: 100%;
+}
+/* about team section ends here */
