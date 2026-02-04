@@ -22,11 +22,12 @@ nav ul li{
     --bg-medium1 : #1B1913;
     
     /* for highlights cards in last */
-    --bg-medium2 : #26241E;
-    
+    --bg-medium2 : #201E18;
+    --bg-medum2-hover : #26241E;
     --text-light : #EDECEC;
     --text-dark : #858481;
     --text-link : #f54e00;
+    --text-link-hover:#BD3F03;
 
     font-size: 62.5%;
 }
@@ -276,3 +277,42 @@ border-radius: .5rem;
     width: 100%;
 }
 /* about team section ends here */
+
+/* recent highlights section starts here */
+.highlights-outer{
+    background-color: var(--bg-medium1);
+    padding-block: 10rem;
+    margin-block: 15rem;
+}
+.highlight-card{
+    background-color: var(--bg-medium2);
+    border-radius: .6rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.highlight-card:hover{
+    background-color: var(--bg-medum2-hover);
+}
+.highlight-card-date{
+    margin-top: 2.2rem;
+}
+.highlights-section{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    font-size: 1.7rem;
+}
+.highlights-section > *{
+    width: 100%;
+}
+.highlight-link{
+    color: var(--text-link);
+    display: block;
+    margin-top: 2rem;
+}
+.highlight-link:hover{
+    color: var(--text-link-hover);
+}
+.highlight-card-description, .highlight-card-date{
+    color: var(--text-dark);
+}
+/* recent highlights section ends here */
