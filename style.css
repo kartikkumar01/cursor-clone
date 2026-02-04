@@ -91,7 +91,7 @@ header nav ul{
     font-size: 2.6rem;
     margin-block: 11rem 2rem;
 }
-#hero-cta{
+.hero-cta{
     display: block;
     width: max-content;
     border-radius: 50px;
@@ -282,7 +282,7 @@ border-radius: .5rem;
 .highlights-outer{
     background-color: var(--bg-medium1);
     padding-block: 10rem;
-    margin-block: 15rem;
+    margin-top: 15rem;
 }
 .highlight-card{
     background-color: var(--bg-medium2);
@@ -316,3 +316,17 @@ border-radius: .5rem;
     color: var(--text-dark);
 }
 /* recent highlights section ends here */
+
+/* final cta section starts here */
+.final-cta-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-direction: column;
+    padding-block: 10rem;
+}
+.final-cta-section > p{
+    font-size: 7rem;
+}
+/* final cta section ends here */
