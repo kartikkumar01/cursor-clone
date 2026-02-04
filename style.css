@@ -151,3 +151,42 @@ header nav ul{
     margin-right: 2.5rem;
 }
 /* feature cards section ends here */
+
+/* testimonials section start here */
+.testimonials{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+}
+.testimonials-p-top{
+    text-align: center;
+    margin-block: 12rem 5rem;
+    font-size: 3.8rem;
+}
+.testimonial-card{
+background-color : var(--bg-medium1);
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+gap: 6rem;
+font-size: 1.8rem;
+padding: 1.8rem;
+border-radius: .5rem;
+
+}
+.testimonial-card-bottom{
+    display: flex;
+    gap: 1.2rem;    
+    font-size: 1.5rem;
+}
+.testimonial-card-bottom img{
+    width: 40px;
+    border-radius: 5px;
+}
+.person-role{
+    color: var(--text-dark);
+}
+.testimonial-card-p{
+    margin-block: 2rem;
+}
+/* testimonials section ends here */
