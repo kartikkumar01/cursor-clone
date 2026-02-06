@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -43,7 +44,7 @@ footer li, nav ul li{
 body{
     background-color: var(--bg-dark);
     color: var(--text-light);
-    font-family: "CursorGothic", "CursorGothic Fallback", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: inter, system-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 1.4rem;
 }
 
